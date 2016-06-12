@@ -1,5 +1,5 @@
 'use strict';
-var gitSemverTags = require('git-semver-tags');
+var gitSemverTags = require('@marionebl/git-semver-tags');
 
 module.exports = function(callback) {
   gitSemverTags(function(error, tags) {
